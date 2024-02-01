@@ -147,3 +147,13 @@ a.td-tienda
 {
     color: white;
 }
+
+/* MAPA */
+h3.mapa 
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white; /* Color del texto para que sea legible sobre el fondo azul */
+    padding: 5px; /* Ajusta el espaciado interno según tus preferencias */
+}

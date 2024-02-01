@@ -1,0 +1,149 @@
+/* 
+    Created on : 31 ene 2024, 09:30:43
+    Author     : Cristhian Sandi
+*/
+
+*
+{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: sans-serif;
+    padding: 80px 20px 0;
+}
+.header
+{
+    background-color: #C6096A;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-menu
+{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item
+{
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link
+{
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.nav-menu-link:hover
+{
+    background-color: #024070;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.h1_noticia
+{
+    color: white;
+    text-decoration: none;
+    position: absolute; top: 20px; left: 10px;
+}
+
+h2.no_bomb
+{
+    color: black;
+    text-align: left;
+    font-size: 16px
+}
+
+p.pa_bomb
+{
+    text-align: left;
+}
+
+h3
+{
+    color: blue;
+    text-align: center;
+}
+
+h4.no_Sec
+{
+    color: white;
+    background-color: darkblue;
+    display: inline-block;
+    padding: 10px;
+    text-align: left;
+    font-size: 16px
+}
+
+/* METEOROLOGIA */
+h4.me_Sec
+{
+    color: white;
+    background-color: darkblue;
+    display: inline-block;
+    padding: 15px 10px;
+    text-align: left;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+iframe.meteorol
+{
+    border: 5px solid black;
+    margin: 3px 0px 15px ;
+}
+
+/* Consultas */
+h3.consultas
+{
+    color: darkblue;
+    font-family: cursive ;
+}
+
+aside.asi\.consultas
+{
+    max-height: 100%;
+}
+
+footer.footer-consultas
+{
+    background-color: lightblue;
+    padding: 50px;
+    margin: auto auto auto auto;
+    border-top: 2px solid darkblue; 
+}
+
+div.div-asi-sec-consu
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3px 5px 15px;
+    margin-bottom: 0;
+}
+/* Tienda */
+
+a.td-tienda
+{
+    color: white;
+}

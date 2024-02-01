@@ -1,0 +1,70 @@
+/* 
+    Created on : 31 ene 2024, 09:36:01
+    Author     : Cristhian Sandi
+*/
+
+img
+{
+    border: 2px solid brown;
+    width: 277px; 
+    height: auto;
+}
+
+hr
+{
+    border: 2px solid darkred;
+}
+
+aside 
+{
+    background-color: #f0f0f0;
+    padding: 25px;
+    border: 1px solid #ccc;
+    max-width: 330px;
+    max-height: 100%;
+    margin: 3px 5px 15px;
+    margin-bottom: 0;
+}
+div.div-asi-sec
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 3px 5px 15px;
+    margin-bottom: 0;
+}   
+
+footer
+{
+    background-color: lightblue;
+    padding: 50px;
+    margin: 0px 10px 25px;
+    border-top: 2px solid darkblue; 
+}
+
+table
+{
+    width: 93.5%;
+    border: darkblue solid 2px;
+}
+
+thead tr
+{
+    background-color: black;
+    color: white;
+
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: black;
+    color: white;
+}
+
+

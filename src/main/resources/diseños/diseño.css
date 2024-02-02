@@ -157,3 +157,184 @@ h3.mapa
     color: white; /* Color del texto para que sea legible sobre el fondo azul */
     padding: 5px; /* Ajusta el espaciado interno según tus preferencias */
 }
+
+/* Deportes */
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 80px 20px 0;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #C6096A;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    line-height: 80px;
+}
+
+.nav-menu-item
+{
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.nav-menu-link
+{
+    color: white;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.nav-menu-link:hover
+{
+    background-color: #024070;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.h1_noticia
+{
+    color: white;
+    text-decoration: none;
+    position: absolute; top: 20px; left: 10px;
+}
+
+.aside-main-container {
+    display: grid;
+    grid-template-columns: 400px 800px;
+    justify-content: center;
+}
+
+/* aside */
+
+aside {
+    max-width: 330px;
+    padding: 16px;
+}
+
+.aside-hr {
+    width: 277px;
+    margin-top: 10px;
+}
+
+.aside-new-container {
+    margin-bottom: 16px;
+}
+
+.aside-new-title {
+    margin-bottom: 6px;
+    font-size: 22px;
+}
+
+.aside-new-p {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* main */
+
+main {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main-section {
+    margin-bottom: 30px;
+}
+
+.main-new-img {
+    width: 100%;
+    height: auto;
+}
+
+.main-new-title {
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.main-new-p {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/* footer */
+
+footer 
+{
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-style: italic;
+    background-color: lightblue;
+    border-top: 2px solid darkblue; 
+}
+
+/* Sobre nosotros */
+h3.so
+{
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+h4.me_so
+{
+    
+    color: white;
+    background-color: black;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+body.sob-body
+{
+    background-color: skyblue;
+}
+
+h4.me_so2
+{
+    color: white;
+    border: 2px solid darkorchid; 
+    background-color: black;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 22px;
+    max-width: 100%;
+}
